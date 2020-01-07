@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    height:   1000px; 
+    background-image: url(hampshire.jpg);
+    background-size: 2160px 1080px;
+    
+}
+
+#section {
+	float:left;
+	background: white;
+	width: 20%;
+	height: 600px;
+	margin-top: 7%;
+    margin-left: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid black;
+    overflow:auto;
+}
+
+#aside {
+	float: right;
+	background: white;
+	width: 60%;
+	height: 600px;
+	margin-top: 7%;
+    margin-right: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid black;
+    overflow:auto;
+}
+
+.button {
+background-color: #4895ff;
+border: none;
+color: white;
+padding: 5px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+margin-left: 10%;
+}
+
+input[type=text], select {
+width: 65%;
+padding: 7px 7px;
+margin: 5px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 2px;
+box-sizing: border-box;
+margin-left: 10%;
+}
+
+h1 {
+	margin: 0 auto;
+	width: 50%;
+	text-align:center;
+    font-size: 30px;
+    margin-top: 15%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 2%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 2%;
+    margin-left: 10%;
+    margin-top: 5%;
+    color:green;
+}
+
+h4 {
+    float: left;
+	width: 50%;
+	
+    font-size: 30px;
+    margin-top: 1%;
+}
+
+h5 {
+    font-size: 30px;
+    margin-left: 2%;
+    margin-left: 10%;
+    margin-top: 5%;
+    color:red;
+}
+
+p {
+    font-family: Century Gothic; 
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+a {
+    margin-left: 2%;   
+    margin-top: 2%;
+    font-size: 20px;
+    color: #0023e5;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
